@@ -1,0 +1,4 @@
+[submodule "simulator/libs/moe"]
+	path = simulator/libs/moe
+	url = git@github.com:ipChrisLee/moe.git
+	branch = NakagawaNatsuki-2.0.0
