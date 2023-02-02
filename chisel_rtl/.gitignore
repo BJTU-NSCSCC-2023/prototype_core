@@ -344,3 +344,4 @@ hs_err_pid*
 cmake-build-debug
 cmake-build-release
 
+src/main/scala/TesterApp.scala

@@ -8,4 +8,13 @@
 git clone https://github.com/BJTU-NSCSCC-2023/prototype_core.git --recursive
 ```
 
-之后**在项目根目录执行**`tool/startup.sh`来设置项目。
+之后请设置环境变量`NSCSCC2023_BJTU_PROTOTYPE_HOME`为本README.md所在路径。效果类似：
+
+```shell
+cd prototype_core
+export NSCSCC2023_BJTU_PROTOTYPE_HOME=$(pwd)
+```
+
+**注意：这个只是个示范，请正确设置环境变量，不然shell脚本无法正常使用！**
+
+之后执行`tool/startup.sh`来设置项目。

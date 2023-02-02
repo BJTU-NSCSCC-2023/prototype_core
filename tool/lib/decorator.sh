@@ -23,10 +23,13 @@ strike_c="\033[9m"
 
 nc_c="\033[m"
 
-error_c="${red_c}${bold_c}X |> "
-message_c="${blue_c}= |> "
-pass_c="${green_c}+ |> "
-query_c="${cyan_c}${underline_c}? |> "
+del_c="\033[K"
 
+error_c="${red_c}${bold_c}(X) |==> "
+message_c="${lGreen_c}(*) |==> "
+begin_c="${orange_c}${bold_c}${italics_c}/|\ |============> "
+fin_c="${orange_c}${bold_c}${underline_c}\|/ |============> "
+pass_c="${green_c}(+) |==> "
+query_c="${cyan_c}${underline_c}(?) |==> "
 
 
