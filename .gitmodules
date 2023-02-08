@@ -2,6 +2,3 @@
 	path = simulator/libs/moe
 	url = git@github.com:ipChrisLee/moe.git
 	branch = NakagawaNatsuki-2.0.0
-[submodule "tool/mips-converter"]
-	path = tool/mips-converter
-	url = git@github.com:BJTU-NSCSCC-2023/mips-converter.git
